@@ -3,62 +3,20 @@
 This is a small app that calculates your tip based off your price.
 
 ## Setup
-
-Create your scaffholding within cloned repositiory:
+Clone repository into your directory of choice.
 
 ```bash 
-npm create vite@latest
+git clone (repo SSH or URL here)
 ```
 
-Name project:
+Open repo within the terminal and input the following command.
 
 ```bash
-? Project name: › vite-project
+npm run dev
 ```
 
-Select React framework:
-
+You should see this on your terminal screen.  It contains your URL to launch the app.  CMD click the URL to open.
 ```bash
-Select a framework: › - Use arrow-keys. Return to submit.
-    Vanilla
-    Vue
-❯   React
-    Preact
-    Lit
-    Svelte
-    Solid
-    Qwik
-    Others
+➜  Local:   http://localhost:(port here)/tip-calculator-ts/
+➜  Network: use --host to expose
 ```
-
-Select varient TypeScript:
-
-```bash
-Select a variant: › - Use arrow-keys. Return to submit.
-❯   TypeScript
-    TypeScript + SWC
-    JavaScript
-    JavaScript + SWC
-    Remix ↗
-```
-Done.  Now run:
-
-```bash
-Done. Now run:
-
-  cd test
-  npm install
-  npm run dev
-  ```
-
-  CMD click the Local URL:
-
-  ```bash
-   VITE v5.3.4  ready in 492 ms
-
-  ➜  Local:   http://localhost:5174/
-  ➜  Network: use --host to expose
-  ➜  press h + enter to show help
-```
-
-

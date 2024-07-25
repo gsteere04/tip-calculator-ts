@@ -60,7 +60,7 @@ const Calculator: React.FC = () => {
                 </div>
                 <button type="submit">Calculate</button>
             </form>
-            {total && <div>Total: {total}</div>}
+            {total && <div>Total: ${total}</div>}
         </div>
     )
     
